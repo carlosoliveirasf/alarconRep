@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_chartter"
+        android:title="Chart"
+        android:icon="@drawable/ic_show_chart_black_24dp"/>
+    <item
+        android:id="@+id/nav_card"
+        android:title="Card"
+        android:icon="@drawable/ic_credit_card_black_24dp" />
+</menu>

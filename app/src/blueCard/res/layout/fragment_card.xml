@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/cardSquare"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/gradiente_card"
+        android:layout_marginTop="15dp"
+        android:layout_width="307dp"
+        android:layout_height="192dp" />
+
+    <ImageView
+        android:id="@+id/cardLogo"
+        app:layout_constraintTop_toTopOf="@id/cardSquare"
+        app:layout_constraintStart_toStartOf="@id/cardSquare"
+        app:layout_constraintEnd_toEndOf="@id/cardSquare"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/master"
+        android:layout_width="73dp"
+        android:layout_height="63dp" />
+
+    <TextView
+        android:id="@+id/txtCardNumber"
+        app:layout_constraintTop_toBottomOf="@id/cardLogo"
+        app:layout_constraintStart_toStartOf="@id/cardSquare"
+        android:layout_marginStart="84dp"
+        android:textSize="11sp"
+        android:fontFamily="@font/sf_ui_text_semibold"
+        android:textColor="#B4B4B4"
+        android:text="xxxx xxxx xxxx 1875"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtPortadorName"
+        app:layout_constraintBottom_toBottomOf="@id/cardSquare"
+        app:layout_constraintStart_toStartOf="@id/cardSquare"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="67dp"
+        android:textSize="12sp"
+        android:fontFamily="@font/sf_ui_text_semibold"
+        android:textColor="#B4B4B4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtExpirationDate"
+        app:layout_constraintBottom_toBottomOf="@id/cardSquare"
+        app:layout_constraintStart_toStartOf="@id/cardSquare"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="47dp"
+        android:textSize="12sp"
+        android:text="Validade"
+        android:fontFamily="@font/sf_ui_text_semibold"
+        android:textColor="#B4B4B4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        app:layout_constraintBottom_toBottomOf="@id/cardSquare"
+        app:layout_constraintStart_toStartOf="@id/cardSquare"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="27dp"
+        android:textSize="12sp"
+        android:fontFamily="@font/sf_ui_text_semibold"
+        android:textColor="#B4B4B4"
+        android:text="Disponível"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtDisponivel"
+        app:layout_constraintBottom_toBottomOf="@id/cardSquare"
+        app:layout_constraintEnd_toEndOf="@id/cardSquare"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="27dp"
+        android:textSize="12sp"
+        android:fontFamily="@font/sf_ui_text_medium"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtExpDateValue"
+        app:layout_constraintBottom_toBottomOf="@id/cardSquare"
+        app:layout_constraintEnd_toEndOf="@id/cardSquare"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="47dp"
+        android:textSize="12sp"
+        android:fontFamily="@font/sf_ui_text_medium"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</android.support.constraint.ConstraintLayout>
