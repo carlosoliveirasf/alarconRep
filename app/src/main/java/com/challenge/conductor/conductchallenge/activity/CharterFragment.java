@@ -42,7 +42,7 @@ public class CharterFragment extends Fragment implements ChartView{
     }
 
     @Override
-    public void onSuccessGetCartaoUsage(List<CartaoVO> cartaoVO, Double amount) {
+    public void onSuccessGetCartaoUsage(List<CartaoVO> cartaoVO) {
         ArrayList<BarEntry> barEntries = new ArrayList<>();
         int index = 0;
         for(CartaoVO cartaoVO1 : cartaoVO){
