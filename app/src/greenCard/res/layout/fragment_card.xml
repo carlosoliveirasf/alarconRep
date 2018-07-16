@@ -32,7 +32,7 @@
         android:textSize="11sp"
         android:fontFamily="@font/sf_ui_text_semibold"
         android:textColor="#B4B4B4"
-        android:text="xxxx xxxx xxxx 1875"
+        android:text="@string/default_card_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -55,7 +55,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginBottom="47dp"
         android:textSize="12sp"
-        android:text="Validade"
+        android:text="@string/validade"
         android:fontFamily="@font/sf_ui_text_semibold"
         android:textColor="#B4B4B4"
         android:layout_width="wrap_content"
@@ -69,7 +69,7 @@
         android:textSize="12sp"
         android:fontFamily="@font/sf_ui_text_semibold"
         android:textColor="#B4B4B4"
-        android:text="Disponível"
+        android:text="@string/disponivel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

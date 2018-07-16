@@ -23,7 +23,7 @@ import com.github.mikephil.charting.utils.ColorTemplate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CharterFragment extends Fragment implements ChartView{
+public class ChartFragment extends Fragment implements ChartView{
     private ChartPresenter chartPresenter;
     private BarChart barChart;
     private Context context;

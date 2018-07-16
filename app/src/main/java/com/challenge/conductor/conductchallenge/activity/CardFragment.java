@@ -58,7 +58,7 @@ public class CardFragment extends Fragment implements CardView{
 
     @Override
     public void onSuccessGetPortador(UserVO userVO) {
-        String cardNumber = "xxxx xxxx xxxx " + userVO.getCardNumber().substring(userVO.getCardNumber().length() - 4);
+        String cardNumber = getString(R.string.default_card_number) + " " + userVO.getCardNumber().substring(userVO.getCardNumber().length() - 4);
         txtCardNumber.setText(cardNumber);
         txtPortadorName.setText(userVO.getName());
         Calendar cal = Calendar.getInstance();

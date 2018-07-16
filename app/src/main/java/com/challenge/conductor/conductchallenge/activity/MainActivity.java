@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
 
                     switch (item.getItemId()){
                         case R.id.nav_chartter:
-                            selectedFragment = new CharterFragment();
+                            selectedFragment = new ChartFragment();
                             break;
                         case R.id.nav_card:
                             selectedFragment = new CardFragment();
